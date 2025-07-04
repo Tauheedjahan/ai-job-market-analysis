@@ -97,8 +97,6 @@ ai-job-market-analysis/
 ---
 
 ## 📷 Sample Visualizations
-
-![Dashboard](images/dashboard.png)
 ![Salary by Experience Level](images/salary_by_experience.png)  
 ![Top 10 Job Titles](images/top_10_job_titles.png)
 
@@ -113,8 +111,7 @@ An interactive Power BI dashboard built using the cleaned job data to visualize 
 ```bash
 data/Cleaned_Job_Data_Insights.pbix
 ```
-![Dashboard Preview](images/dashboard.png)
-
+![Dashboard preview](images/dashboard.png)
 ## 📂 How to Run This Project
 
 1. Clone the repository:
