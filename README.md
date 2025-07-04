@@ -6,15 +6,20 @@ By analyzing factors like job titles, salary distribution, experience level, com
 ---
 
 ## 📁 Project Structure
+```bash
 ai-job-market-analysis/
 ├── data/
-│ └── cleaned_data.csv
+│   └── cleaned_data.csv
 ├── notebooks/
-│ └── eda_ai_jobs.ipynb
-├── visuals/
+│   └── eda_ai_jobs.ipynb
+├── images/
+│   └── [All saved plot PNGs]
+├── dashboard/
+│   └── ai_jobs_dashboard.pbix
+├── .gitignore
 ├── README.md
-
----
+├── requirements.txt
+```
 
 ## 🎯 Objective
 
@@ -24,10 +29,9 @@ ai-job-market-analysis/
 - Investigate the impact of remote work and education requirements
 
 ---
-
 ## 📊 Dataset Details
 
-- **Source:** [Your dataset source here — e.g., Kaggle / LinkedIn scraping / Synthesized]
+- **Source:** [Global AI Job Market and Salary Trends 2025 (Kaggle)](https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025)
 - **Records:** XXXX rows × XX columns
 - **Format:** CSV
 - **Features Include:**
@@ -40,6 +44,7 @@ ai-job-market-analysis/
   - Education & Skills Required
   - Industry, Benefits Score, etc.
 
+
 ---
 
 ## 🚀 Tools Used
@@ -47,9 +52,11 @@ ai-job-market-analysis/
 - **Python**
 - **Pandas, NumPy** — Data processing
 - **Matplotlib, Seaborn** — Visualizations
-- **Jupyter Notebook** — Analysis & Reporting
+- **Jupyter Notebook** — Exploratory Data Analysis
+- **Power BI** — Interactive Dashboard & Reporting
 
 ---
+
 
 ## 📌 Key Insights
 
@@ -63,10 +70,9 @@ ai-job-market-analysis/
 
 ## 📷 Sample Visualizations
 
-> You can add actual `.png` images inside `/visuals/` and link them here.
+![Salary by Experience Level](images/salary_by_experience.png)  
+![Top 10 Job Titles](images/top_10_job_titles.png)
 
-![Salary by Experience Level](visuals/salary_by_experience.png)  
-![Top 10 Job Titles](visuals/top_10_job_titles.png)
 
 ---
 
@@ -74,5 +80,4 @@ ai-job-market-analysis/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ai-job-market-analysis.git
-
+   git clone https://github.com/Tauheedjahan/ai-job-market-analysis.git
